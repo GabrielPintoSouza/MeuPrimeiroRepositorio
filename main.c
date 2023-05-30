@@ -1,11 +1,16 @@
 #include <stdio.h>
 
 void imprimirBob(){
-	printf("Eu sou Bob");
+	printf("Eu sou Bob\n");
+}
+
+void imprimirAlice(){
+	printf("Eu sou Alice\n");
 }
 int main(){
 	
 	imprimirBob();
+	imprimirAlice();
 
 	return 0;
 }
